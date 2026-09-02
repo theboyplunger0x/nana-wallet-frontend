@@ -27,6 +27,12 @@ Product definition:
 
 > A voice-first agentic wallet for older adults and people with limited mobility.
 
+Related context:
+
+- Official product repository: https://github.com/theboyplunger0x/nana-wallet
+- Pitch, mission and brand context kit: https://github.com/theboyplunger0x/nana-pitch-kit
+- Current cross-medium visual reference: `design-assets/reference/nana-pitch-deck-current-montage.png`
+
 ## Where the landing lives
 
 - `src/routes/index.tsx` — complete landing structure, sections, header, footer, metadata, and CTAs.
@@ -37,7 +43,7 @@ Product definition:
 
 ## Bubbles and textures
 
-The bubbles are not bitmap assets. They are built in CSS, so the editable source is included in full:
+The live landing bubbles are built in CSS, so the editable source is included in full:
 
 - `.minimal-orb`
 - `.minimal-orb-main`
@@ -48,12 +54,22 @@ The bubbles are not bitmap assets. They are built in CSS, so the editable source
 
 The hero places the primary bubbles in `HybridLandingIntro.tsx`. The rest of the landing extends the same language through section pseudo-elements in `src/styles.css`.
 
+The same visual system is also available as production-ready raster assets:
+
+- `design-assets/bubbles/` contains transparent standalone bubbles for compositing.
+- `design-assets/deck-textures/` contains cream, lilac and purple 16:9 backgrounds in full-resolution PNG and lightweight JPEG formats.
+
+Current visual rule: use smooth atmospheric gradients and translucent bubbles without a square background grid. Bubbles should establish depth, hierarchy or progression. Avoid scattering them as generic decoration.
+
 ## Asset library
 
 - `src/assets/landing/` — English product screenshots used directly by the landing.
 - `src/assets/nani/` — Nani states used by the app.
 - `public/` — favicon, Nani icon, Open Graph image, and social card.
 - `design-assets/logo/` — avatars, lockups, banners, and GitHub preview.
+- `design-assets/bubbles/` — transparent high-resolution and deck-ready glass bubbles.
+- `design-assets/deck-textures/` — current grid-free atmospheric backgrounds.
+- `design-assets/reference/` — the current pitch-deck montage as a visual-system reference.
 - `design-assets/screenshots-english/` — clean English product flow.
 - `design-assets/screenshots/` — Spanish product flow and extra screens.
 - `design-assets/sprites/` — high-resolution Nani character states.

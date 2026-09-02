@@ -2,6 +2,13 @@
 
 Frontend accesible de una wallet agéntica argentina para personas mayores y personas con discapacidad. Incluye agente por texto o voz, perfil y agenda familiar, saldos, movimientos y confirmación segura de pagos.
 
+## Landing y handoff de diseño
+
+- Guía completa: [`DESIGNER_HANDOFF.md`](DESIGNER_HANDOFF.md)
+- Bubbles y texturas grid-free: [`design-assets/`](design-assets/)
+- Contexto de pitch, misión y marca: https://github.com/theboyplunger0x/nana-pitch-kit
+- Repositorio oficial del producto: https://github.com/theboyplunger0x/nana-wallet
+
 ## Development
 
 Necesitás Node.js y npm.
